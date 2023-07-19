@@ -1,0 +1,75 @@
+.expense_tracker {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+h3{
+ 
+  color: green;
+  
+}
+#message{
+  text-align: center;
+  color: red;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+} 
+
+button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+li:hover span {
+  display: inline;
+  cursor: pointer;
+}
+
+#test {
+  position: absolute;
+
+  top: 50px;
+  left: 50px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#display_expenses{
+  display: none;
+}
+
+#expenses_table td, #expenses_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#expenses_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#expenses_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
